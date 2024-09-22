@@ -1,0 +1,49 @@
+/* Mobile Devise */
+@media (max-width: 575.999px) {
+    #button {
+        gap: 0;
+        flex-direction: column;
+        align-content: center;
+        background-color: #46001d;
+    }
+    .navBtn {
+        font-size: 16px;
+    }
+    
+}
+/* Small Devise */
+@media screen and (min-width: 576px) and (max-width: 767.999px) {
+    #button{
+        background-color: #46001d;
+        flex-direction: inherit;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+/* Medium Devise */
+@media screen and (min-width: 768px) and (max-width: 991.999px) {
+    #button{
+        background-color: #230056;
+        flex-direction: inherit;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+/* Large Devise */
+@media screen and (min-width: 992px) and (max-width: 1199.999px) {
+    #button{
+        background-color: #590064;
+    }
+}
+/* Extra Large Devise */
+@media screen and (min-width: 1200px) and (max-width: 1399.999px) {
+    #button{
+        background-color: #414403;
+    }
+}
+/* Extra Extra Large Devise */
+@media screen and (min-width: 1400px) {
+    /* #button{
+        background-color: #053800;
+    } */
+}
